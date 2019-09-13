@@ -1,0 +1,143 @@
+@font-face{
+    font-family: 'Cinzel';
+    src: url('Cinzel-Regular.ttf');
+}
+
+body{
+    font-family: Cinzel;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    overflow: hidden
+}
+
+.box{
+    margin: 2vh auto;
+    width: 75%;
+    max-width: 600px;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.screen{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em
+}
+
+.expression{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #BFBFBF;
+}
+
+.result{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-content, .expression-content{
+    width: 96%;
+    height: 90%;
+    margin: 5% auto;
+    padding: 2%;
+    text-align: right;
+}
+
+.operations{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.memory{
+    width: 40%;
+    height: 100%;
+    background-color: #383A59;
+}
+
+.mem-content{
+    margin: 5% 10%;
+    width: 80%;
+    text-align: right
+}
+
+.keypad{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #686D8C    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around
+}
+
+button{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    border: none;
+    font-weight: bold;
+    transition: .2s;
+    background-color: #404040;
+    color: #BFBFBF;
+    font-family: Cinzel;
+}
+
+.mem-content button{
+    width: auto;
+    min-width: 45px;
+    background-color: #BFBFBF;
+    color: #404040
+}
+
+.mem-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.brackets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+button.brack{
+    width: 22px;
+    height: 45px;
+    margin: 2px;
+}
+
+button:hover{
+    transform: scale(1.2)
+}
+
+button:focus{
+    outline: none;    
+}
