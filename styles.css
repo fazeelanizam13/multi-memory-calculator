@@ -3,6 +3,11 @@
     src: url('Cinzel-Regular.ttf');
 }
 
+@font-face{
+    font-family: 'Cinzel-Bold';
+    src: url('Cinzel-Bold.ttf');
+}
+
 body{
     font-family: Cinzel;
     margin: 0;
@@ -12,13 +17,47 @@ body{
 }
 
 .box{
-    margin: 2vh auto;
+    margin: 0 auto;
+    margin-bottom: 2vh;
     width: 75%;
     max-width: 600px;
-    height: 96vh;
+    height: 88vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.footer{
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ccc
+}
+
+p.footer-text{
+    font-family: Cinzel-Bold;
+    text-align: center;
+    color: #404040;
+    font-size: .8em;
+    width: 100%;
+    line-height: 1.9em
+}
+
+p.footer-text a{
+    text-decoration: none;
+    color: #000;
+}
+
+p.footer-text a{
+    transition: all .1s ease-in-out;
+}
+
+p.footer-text a:hover{
+    border-bottom: 1px solid #383A59
 }
 
 .screen{
