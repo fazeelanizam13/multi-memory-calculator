@@ -1,12 +1,10 @@
 # [Multi-Memory Calculator](https://fazeelanizam13.github.io/multi-memory-calculator/)
 
-A calculator which lets you perform calculations (only four operators - addition, subtraction, multiplication and division - available at the moment) with the ability to store multiple number of results for later use. The memory store is visible to the user, and makes it for an easier retrieval of stored numbers, for ongoing calculations.
+A calculator which lets you perform calculations (addition, subtraction, multiplication and division) with the ability to store multiple number of results for later use. The memory store is visible to the user, and makes it for an easier retrieval of stored numbers, for ongoing calculations.
 
 ## Getting Started
 
 No prerequisites or installing required. It's just needed to download the zip, unzip it and run the index.html file.
-
-*BUT, please note that this is an ongoing project, which means it doesn't work 'perfectly.' Or in other words, there are bugs that need to be worked around.*
 
 ![Screenshot from Multi-Memory Calculator](screenshot.png)
 
