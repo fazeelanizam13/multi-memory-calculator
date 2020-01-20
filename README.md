@@ -4,7 +4,7 @@ A calculator which lets you perform calculations (addition, subtraction, multipl
 
 ## Getting Started
 
-No prerequisites or installing required. It's just needed to download the zip, unzip it and run the index.html file.
+No prerequisites or installing required. It's just needed to download the zip, unzip it and open the index.html file on your browser.
 
 ![Screenshot from Multi-Memory Calculator](screenshot.png)
 
@@ -26,7 +26,7 @@ The bottom portion displays the evaluation of the expression (as long as it's a 
 
 ## Built With
 
-* [AngularJS](https://angularjs.org/) - Web framework
+* [AngularJS](https://angularjs.org/)
 
 ## Authors
 
